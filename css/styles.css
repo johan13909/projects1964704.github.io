@@ -1,3 +1,58 @@
-#body {
-    color: purple;
-    background-color: #d8da3d }
+.ps {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px;
+  height: 180px;
+}
+
+#nav {
+  width: 45%;
+  float: left;
+}
+
+#nav1 {
+  width: 45%;
+  float: right;
+}
+
+#section {
+  width: 70%;
+  float: center;
+  font-family: cursive;
+}
+
+#footer {
+  width: 100%;
+}
+
+.body {
+  border: 2px solid black;
+  padding: 50px;
+}
+
+.body2 {
+  border-radius: 10px 1px 10px 10px;
+  -moz-border-radius: 10px 1px 10px 10px;
+  -webkit-border-radius: 10px 1px 10px 10px;
+  border: 2px ridge #0803b7;
+  padding: 50px;
+}
+
+.h {
+  border-radius: 10px 1px 10px 10px;
+  -moz-border-radius: 10px 1px 10px 10px;
+  -webkit-border-radius: 10px 1px 10px 10px;
+  border: 2px ridge #0803b7;
+  padding: 10px;
+}
+
+.divl {
+  width: 45%;
+  background-color: rgb(169, 248, 238);
+  float: left;
+}
+
+.divr {
+  width: 45%;
+  background-color: rgb(169, 248, 238);
+  float: right;
+}
