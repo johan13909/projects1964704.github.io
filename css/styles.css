@@ -90,3 +90,47 @@
   padding: inherit;
   text-align: center;
 }
+
+.h7_1-2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline overline blue;
+  text-align: center;
+  text-shadow: 1px 1px 3px gold;
+  color: #666666;
+  background-color: #eeeeee;
+}
+
+#imagen {
+  vertical-align: top;
+}
+
+.intro:first-letter {
+  font-size: 150%;
+}
+
+.credits {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+  padding: 10px 12px 10px 12px;
+  border: px solid black;
+  color: black;
+}
+
+input.submit:hover {
+  background-color: blue;
+}
+
+input.submit:active {
+  background-color: green;
+}
+
+input.text {
+  color: #cccccc;
+}
+
+input.text:focus {
+  color: #eb0808;
+}
