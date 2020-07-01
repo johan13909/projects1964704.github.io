@@ -134,3 +134,20 @@ input.text {
 input.text:focus {
   color: #eb0808;
 }
+
+.scroll {
+  overflow: scroll;
+}
+
+.div8_title {
+  text-align: center;
+}
+
+.div8_img1 {
+  width: 200px;
+  float: left;
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 0 0 0 15px blue;
+  padding: 15px;
+  padding-bottom: 11px;
+}
