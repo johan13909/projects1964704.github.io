@@ -137,10 +137,18 @@ input.text:focus {
 
 .scroll {
   overflow: scroll;
+  padding: 10px;
+  height: 250px;
 }
 
 .div8_title {
   text-align: center;
+  box-shadow: inset 0 0 0 10px blue;
+  border: 10px solid yellow;
+  height: auto;
+  background-color: green;
+  width: auto;
+  float: center;
 }
 
 .div8_img1 {
@@ -150,4 +158,105 @@ input.text:focus {
   box-shadow: inset 0 0 0 15px blue;
   padding: 15px;
   padding-bottom: 11px;
+}
+
+h1 {
+  background-color: white;
+}
+
+.div1_p8 {
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 0 0 0 15px blue;
+  float: right;
+  padding: 20px;
+  height: 290px;
+  width: 71%;
+}
+
+.div8_img2 {
+  width: 200px;
+  float: left;
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 0 0 0 15px rgb(167, 16, 66);
+  padding: 15px;
+  padding-bottom: 11px;
+}
+
+.div2_p8 {
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 0 0 0 15px rgb(167, 16, 66);
+  float: right;
+  padding: 20px;
+  height: 290px;
+  width: 71%;
+}
+
+.div8_img3 {
+  width: 200px;
+  float: left;
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 5px 5px 5px 5px rgb(145, 3, 138);
+  -moz-box-shadow: 5px 5px 5px 5px rgb(145, 3, 138);
+  -webkit-box-shadow: 5px 5px 5px 5px rgb(145, 3, 138);
+  padding: 10px;
+  padding-bottom: 11px;
+}
+
+.div3_p8 {
+  border: 15px solid rgb(0, 0, 231) 8, 8, 214;
+  box-shadow: inset 0 0 0 15px rgb(145, 3, 138);
+  float: right;
+  padding: 20px;
+  height: 290px;
+  width: 71%;
+}
+
+ul {
+  width: 600;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: black solid 2px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.li {
+  display: inline;
+  margin: 0px 3px;
+}
+
+.page {
+  max-width: 900px;
+  min-width: 620;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px double blue;
+  background-color: #ffffff;
+}
+
+.a1:hover,
+.a1.on {
+  color: blue;
+  background-color: #ffffff;
+}
+
+.a1 {
+  color: #000000;
+  text-decoration: none;
+  padding: 6px 18px 5px 18px;
+}
+
+td {
+  text-align: center;
+  max-width: 150px;
+  min-width: 150;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.ol {
+  list-style-type: decimal-leading-zero;
 }
