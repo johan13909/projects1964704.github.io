@@ -117,6 +117,7 @@ input {
   padding: 10px 12px 10px 12px;
   border: px solid black;
   color: black;
+  cursor: pointer;
 }
 
 input.submit:hover {
@@ -259,4 +260,99 @@ a:hover {
 
 .ol {
   list-style-type: decimal-leading-zero;
+}
+
+ol.img {
+  list-style-image: url('../imagenes/logov.jpg');
+}
+
+.div9 {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+table.two {
+  empty-cells: hide;
+}
+
+td.upr {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: red;
+}
+
+td.upa {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: blue;
+}
+
+td.upv {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: green;
+}
+
+td.upm {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: purple;
+}
+
+a {
+  cursor: pointer;
+}
+
+.title_l {
+  float: left;
+  width: 150px;
+  clear: left;
+}
+
+legend {
+  font-style: italic;
+  color: black;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: blanchedalmond;
+  width: 350px;
+}
+
+.div_gray {
+  background-color: darkgray;
+}
+.center {
+  text-align: center;
+}
+
+body.ten {
+  width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.colum1,
+.colum2,
+.colum3 {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(235, 233, 233);
+  empty-cells: hide;
+}
+
+blockquote {
+  float: right;
+  font-size: 120%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px 0px 15px 15px;
+  padding: 10px;
+  border-top: solid black;
+  border-bottom: solid black;
 }
